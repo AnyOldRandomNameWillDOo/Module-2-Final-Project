@@ -1,4 +1,4 @@
-# Predicting Sell Prices Of Homes Using Multiple Linear Regression
+# Predicting Prices Of Homes Using Multiple Linear Regression
 ## Making Recommendations For Home Sellers
 
 **Authors**: Vivienne DiFrancesco
@@ -6,12 +6,12 @@
 The contents of this repository detail an ordinary least squares (OLS) linear regression model to predict housing sell prices in King County Washington. This analysis is detailed in hopes of making the work accessible and replicable.
 
 
-### Business problem:
+## Business problem
 
 The purpose of this project was to make a linear regression model to predict the sell prices of homes. Using the model built, people in King County who are looking to sell their homes can gain insights. The predictions could be helpful for homeowners to get a better price when selling their home or to know what price to expect when selling their home.
 
 
-### Data
+## Data
 The data used for this project was records of houses sold in King County Washington, which includes the urban center of Seattle. The data can be found in this repo as a csv and the file is called "kc_house_data" The dataset contained over 21,000 records and included homes priced between $7.7 million  and $78,000. The houses were sold between 5/2/2014 and 5/27/2015. The data includes information about squarefootage of the homes, condition, floors, year built, renovations, bedrooms, bathrooms, and size of the lot. 
 
 
@@ -28,7 +28,7 @@ The data used for this project was records of houses sold in King County Washing
 
 
 #### Visual 1
-![graph1](./images/Home Prices By Location.png)
+![graph1](https://github.com/AnyOldRandomNameWillDOo/Module-2-Final-Project/blob/master/Home%20Prices%20By%20Location.png)
 > Location makes a big difference on home prices but can not be controlled by owners.
 
 #### Visual 2
