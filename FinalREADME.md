@@ -18,7 +18,7 @@ The data used for this project was records of houses sold in King County Washing
 ## Methods
 - The OSEMiN data science workflow was used through this project.
 - The data was first analyzed for each of the independent variables to identify which were appropriate to be considered as categories. Factors such as zipcode were used as categorical features in the model. Other variables that did not meet assumptions for normality or linearity were dropped. Some variables were also dropped since they were too full of zero values to be meaningful. 
-- The statsmodels OLS linear regression was used for modeling. For each model iteration a train-test-split and cross validation was done to assess model quality. The model was assessed after each iteration to note how the model improved or declined.
+- The statsmodels OLS linear regression was used for modeling. For each model iteration a train-test-split and cross validation was done to assess model quality. A new model iteration was done after each change to note how the model improved or declined due to the change.
 - First, outliers were removed using the interquartile range (IQR) method, then multicolinearity and variance inflation factor (VIF) were addressed, then the dependent variable (prices) were log transformed to better meet assumptions of normality, residual homoscedasticity, and residual normality. 
 - Features with insignificant p-values were removed except in the case of categorical data. For categorical features, if a majority of the categories were significant, then the whole category remained in the model. 
 
@@ -28,7 +28,7 @@ The data used for this project was records of houses sold in King County Washing
 
 
 #### Visual 1
-![graph1](/images/Home Prices By Location.png)
+![graph1](./images/Home Prices By Location.png)
 > Location makes a big difference on home prices but can not be controlled by owners.
 
 #### Visual 2
