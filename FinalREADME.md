@@ -28,7 +28,7 @@ The data used for this project was records of houses sold in King County Washing
 
 
 #### Visual 1
-![graph1](https://github.com/AnyOldRandomNameWillDOo/Module-2-Final-Project/blob/master/Home%20Prices%20By%20Location.png)
+![graph1](https://raw.githubusercontent.com/AnyOldRandomNameWillDOo/Module-2-Final-Project/master/Home%20Prices%20By%20Location.png)
 > Location makes a big difference on home prices but can not be controlled by owners.
 
 #### Visual 2
